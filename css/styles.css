@@ -1,9 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Helvetica', sans-serif;
+}
+
 .Our-Title {
-    background-color: #6DA48F;
+    /*background-color: #6DA48F;*/
     color: white;
     padding: 10px 10px 10px 10px;
 }
+body {
+    background-color: #F5E7DA;
+}
 
 header {
+    background-color: #6DA48F;
 
+    /* Navbar container */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #6DA48F;
+        padding: 15px 30px;
+    }
+
+    /* Logo styling */
+    .logo a {
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+    /* Navigation links container */
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    /* Individual link styling */
+    .nav-links a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+        text-decoration: none;
+        font-size: 2.2rem;
+        padding: 8px 12px;
+        transition: background-color 0.3s ease;
+        border-radius: 4px;
+    }
+
+    /* Hover effect */
+    .nav-links a:hover {
+        background-color: #555;
+    }
 }
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.main-photo-park-img {
+    width: 100%;
+    max-width: 100%;
+    height: 750px;
+    max-height: 750px;
+    display: block;
+    z-index: 1;
+}
+
+.who-we-are-class {
+    margin-top: -200px;
+    z-index: 10;
+}
+
+section, article {
+    border: red solid 0;
+}
+
+/* Sections and articles */
+section, article {
+    background-color: #8EB877;
+    padding: 5%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    h2 {
+        text-align: center;
+        color: #F2F2F2;
+        padding-bottom: 20px;
+    }
+
+    ul {
+        padding: 3px 0 10px 20px ;
+    }
+}
+
+h3 {
+    padding: 20px 0 10px 0;
+}
+
+/* Bird images */
+article img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+    p {
+        display: block;
+        margin: 15px auto;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
