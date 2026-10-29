@@ -30,37 +30,34 @@ header {
 
     }
 
-    /* Navigation links container */
-    .nav-links {
-        list-style: none;
-        display: flex;
-        gap: 20px;
-
-    }
-
-    /* Individual link styling */
-    .nav-links a {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #fff;
-        text-decoration: none;
-        font-size: 2.2rem;
-        padding: 8px 12px;
-        transition: background-color 0.3s ease;
-        border-radius: 4px;
-    }
-
-    /* Hover effect */
-    .nav-links a:hover {
-        background-color: #555;
-    }
-
     .nav-logo {
         width: 70px;
         max-width: 90px;
         height: auto;
         /*max-height: auto;*/
         margin: 0 0 0 -270px;
+    }
+    /* Navigation links container */
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
 
+    /* Individual link styling */
+    .nav-links a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-decoration: none;
+        font-size: 2.2rem;
+        padding: 50px 20px 50px 20px;
+        margin: -10px;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Hover effect */
+    .nav-links a:hover {
+        background-color: #555;
     }
 }
 
@@ -132,7 +129,14 @@ section, article {
     }
 
     ul {
-        padding: 3px 0 10px 20px ;
+        background-color: #F5E7DA;
+        padding: 20px 20px 20px 20px;
+        padding-inline-start: 40px;
+        border-radius: 10px;
+    }
+
+    p {
+        margin: 20px 0 0 0;
     }
 }
 
@@ -155,13 +159,6 @@ article img {
     }
 }
 
-ul {
-    background-color: white;
-    padding: 20px 20px 20px 20px;
-    padding-inline-start: 40px;
-    border-radius: 10px;
-}
-
 li {
     margin-bottom: 8px;
 }
@@ -169,4 +166,23 @@ li {
 footer {
     background-color: #6DA48F;
     padding: 50px 50px 50px 250px;
+
+    .footer-title a{
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .footer-logo {
+        width: 70px;
+        max-width: 90px;
+        height: auto;
+        /*max-height: auto;*/
+        margin: -100px 0 0 200px;
+    }
+
+    p {
+        color: white;
+        text-align: center;
+    }
 }
