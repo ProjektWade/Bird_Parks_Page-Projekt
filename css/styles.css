@@ -53,6 +53,15 @@ header {
     .nav-links a:hover {
         background-color: #555;
     }
+
+    .nav-logo {
+        width: 70px;
+        max-width: 90px;
+        height: auto;
+        /*max-height: auto;*/
+        margin: 0 0 0 -270px;
+
+    }
 }
 
 main {
@@ -108,9 +117,6 @@ main {
     }
 }
 
-section, article {
-    border: red solid 0;
-}
 
 /* Sections and articles */
 section, article {
@@ -147,4 +153,9 @@ article img {
         width: 100%;
         max-width: 100%;
     }
+}
+
+footer {
+    background-color: #6DA48F;
+    padding: 50px 50px 50px 250px;
 }
